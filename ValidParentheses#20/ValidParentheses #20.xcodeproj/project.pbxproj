@@ -10,6 +10,16 @@
 		C37C5532210B915B00EDDEFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C37C5531210B915B00EDDEFE /* main.cpp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C37C553C210B92AA00EDDEFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C37C5538210B92AA00EDDEFE /* AddTwoNumbers #2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C318DC8C20D1614F0094FD43;
+			remoteInfo = "AddTwoNumbers #2";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		C37C552C210B915B00EDDEFE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,8 +33,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C37C552E210B915B00EDDEFE /* ValidParentheses#20 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ValidParentheses#20"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37C552E210B915B00EDDEFE /* ValidParentheses #20 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ValidParentheses #20"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37C5531210B915B00EDDEFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C37C5538210B92AA00EDDEFE /* AddTwoNumbers #2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "AddTwoNumbers #2.xcodeproj"; path = "../AddTwoNumbers #2/AddTwoNumbers #2.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,13 +54,14 @@
 			children = (
 				C37C5530210B915B00EDDEFE /* ValidParentheses#20 */,
 				C37C552F210B915B00EDDEFE /* Products */,
+				C37C5538210B92AA00EDDEFE /* AddTwoNumbers #2.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
 		C37C552F210B915B00EDDEFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C37C552E210B915B00EDDEFE /* ValidParentheses#20 */,
+				C37C552E210B915B00EDDEFE /* ValidParentheses #20 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,12 +74,20 @@
 			path = "ValidParentheses#20";
 			sourceTree = "<group>";
 		};
+		C37C5539210B92AA00EDDEFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C37C553D210B92AA00EDDEFE /* AddTwoNumbers #2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C37C552D210B915B00EDDEFE /* ValidParentheses#20 */ = {
+		C37C552D210B915B00EDDEFE /* ValidParentheses #20 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C37C5535210B915B00EDDEFE /* Build configuration list for PBXNativeTarget "ValidParentheses#20" */;
+			buildConfigurationList = C37C5535210B915B00EDDEFE /* Build configuration list for PBXNativeTarget "ValidParentheses #20" */;
 			buildPhases = (
 				C37C552A210B915B00EDDEFE /* Sources */,
 				C37C552B210B915B00EDDEFE /* Frameworks */,
@@ -77,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = "ValidParentheses#20";
+			name = "ValidParentheses #20";
 			productName = "ValidParentheses#20";
-			productReference = C37C552E210B915B00EDDEFE /* ValidParentheses#20 */;
+			productReference = C37C552E210B915B00EDDEFE /* ValidParentheses #20 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C37C5529210B915B00EDDEFE /* Build configuration list for PBXProject "ValidParentheses#20" */;
+			buildConfigurationList = C37C5529210B915B00EDDEFE /* Build configuration list for PBXProject "ValidParentheses #20" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -106,12 +126,28 @@
 			mainGroup = C37C5525210B915B00EDDEFE;
 			productRefGroup = C37C552F210B915B00EDDEFE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C37C5539210B92AA00EDDEFE /* Products */;
+					ProjectRef = C37C5538210B92AA00EDDEFE /* AddTwoNumbers #2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				C37C552D210B915B00EDDEFE /* ValidParentheses#20 */,
+				C37C552D210B915B00EDDEFE /* ValidParentheses #20 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C37C553D210B92AA00EDDEFE /* AddTwoNumbers #2 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "AddTwoNumbers #2";
+			remoteRef = C37C553C210B92AA00EDDEFE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C37C552A210B915B00EDDEFE /* Sources */ = {
@@ -255,7 +291,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C37C5529210B915B00EDDEFE /* Build configuration list for PBXProject "ValidParentheses#20" */ = {
+		C37C5529210B915B00EDDEFE /* Build configuration list for PBXProject "ValidParentheses #20" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C37C5533210B915B00EDDEFE /* Debug */,
@@ -264,7 +300,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C37C5535210B915B00EDDEFE /* Build configuration list for PBXNativeTarget "ValidParentheses#20" */ = {
+		C37C5535210B915B00EDDEFE /* Build configuration list for PBXNativeTarget "ValidParentheses #20" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C37C5536210B915B00EDDEFE /* Debug */,
