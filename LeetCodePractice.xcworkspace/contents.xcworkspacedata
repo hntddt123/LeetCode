@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:RemoveDuplicatesFromSortedArray #26/RemoveDuplicatesFromSortedArray #26.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Two Sum #1/Two Sum #1.xcodeproj">
    </FileRef>
    <FileRef
