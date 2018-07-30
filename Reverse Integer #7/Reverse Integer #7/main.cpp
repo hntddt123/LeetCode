@@ -19,31 +19,28 @@ public:
     int reverse(int x) {
         //Count digits of number
         //Take mod to build reverse
-        int numberToReverse = abs(x);
         int reverseNumber = 0;
-        int times = 1;
-        while (numberToReverse >= 10) {
-            times *= 10;
-            numberToReverse /= 10;
-        }
-        while (times != 0) {
+        int min = INT_MIN;
+        int max = INT_MAX;
+        
+        while (x != 0) {
             int digit = x%10;
-            reverseNumber = reverseNumber + digit * times;
-            cout << times << endl;
+            if (reverseNumber > max/10 || reverseNumber < min/10) {
+                cout << "Overflow" << endl;
+                return 0;
+            }
+            reverseNumber = reverseNumber * 10 + digit;
             cout << digit << " ";
-            times /= 10;
             x /= 10;
         }
-        if (reverseNumber > INT_MAX) {
-            return 0;
-        }
+        cout << endl;
         return reverseNumber;
     }
 };
 
 int main(int argc, const char * argv[]) {
     
-    int number = 1534236469;
+    int number = 1534236461;
     int result = 0;
     Solution s;
     result = s.reverse(number);

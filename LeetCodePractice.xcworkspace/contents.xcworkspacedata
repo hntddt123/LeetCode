@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Reverse String #344/Reverse String #344.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Reverse Integer #7/Reverse Integer #7.xcodeproj">
    </FileRef>
    <FileRef
