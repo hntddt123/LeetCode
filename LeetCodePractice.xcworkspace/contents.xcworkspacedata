@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Single Number #136/Single Number #136.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Fizz Buzz #412/Fizz Buzz #412.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Reverse String #344/Reverse String #344.xcodeproj">
    </FileRef>
    <FileRef
