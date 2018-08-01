@@ -16,6 +16,7 @@
 
 #include <iostream>
 #include <vector>
+#include <stack>
 using namespace std;
 
 struct TreeNode {
@@ -25,6 +26,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
+//Recursive solution
 class Solution {
 public:
     void inOrderHelper(TreeNode* root, vector<int>* inOrder) {
@@ -45,6 +47,29 @@ public:
         
         return inOrder;
     }
+    
+    //Iterative version
+    vector<int> inorderTraversalIterative(TreeNode* root) {
+        vector<int> inOrderVetor;
+        stack<TreeNode*> inOrderNodesStack;
+        if (root == nullptr) {
+            return inOrderVetor;
+        }
+        while (root != nullptr || !inOrderNodesStack.empty()) {
+            if (root != nullptr) {
+                inOrderNodesStack.push(root);
+                root = root->left;
+            } else {
+                root = inOrderNodesStack.top();
+                inOrderVetor.push_back(root->val);
+                inOrderNodesStack.pop();
+                root = root->right;
+            }
+        }
+        
+        return inOrderVetor;
+    }
+
 };
 
 int main(int argc, const char * argv[]) {
@@ -59,7 +84,7 @@ int main(int argc, const char * argv[]) {
     root.right = &node1;
     node1.left = &node2;
     
-    inOrder = s.inorderTraversal(&root);
+    inOrder = s.inorderTraversalIterative(&root);
     for (int i=0; i<inOrder.size(); i++) {
         cout << inOrder[i] << " ";
     }
