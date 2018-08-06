@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Excel Sheet Column Number #171/Excel Sheet Column Number #171.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Sum of Two Integers #371/Sum of Two Integers #371.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Delete Node in a Linked List #237/Delete Node in a Linked List #237.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Reverse Linked List #206/Reverse Linked List #206.xcodeproj">
    </FileRef>
    <FileRef
