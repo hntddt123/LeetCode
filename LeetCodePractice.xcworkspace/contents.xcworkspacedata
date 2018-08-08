@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Top K Frequent Elements #347/Top K Frequent Elements #347.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Best Time to Buy and Sell Stock II #122/Best Time to Buy and Sell Stock II #122.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Excel Sheet Column Number #171/Excel Sheet Column Number #171.xcodeproj">
    </FileRef>
    <FileRef
