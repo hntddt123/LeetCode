@@ -31,6 +31,7 @@ public:
         if (openParenthesisCount == 0 && closeParenthesisCount == 0) {
             parentheses.push_back(str);
         } else {
+            //Adding ( and ) recursively with all valid combination starts from (((, ((, (
             if (openParenthesisCount > 0) {
                 adddingParenthesis(parentheses, str + "(", openParenthesisCount-1, closeParenthesisCount+1);
             }
