@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Majority Element #169/Majority Element #169.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Roman to Integer #13/Roman to Integer #13.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Generate Parentheses #22/Generate Parentheses #22.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Top K Frequent Elements #347/Top K Frequent Elements #347.xcodeproj">
    </FileRef>
    <FileRef
