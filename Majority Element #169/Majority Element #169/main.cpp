@@ -10,16 +10,46 @@
 //  Output: 2
 
 #include <iostream>
+#include <vector>
+#include <unordered_map>
 using namespace std;
 
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
+        unordered_map<int, int> majorityMap;
         
+        for (int i=0; i<nums.size(); i++) {
+            majorityMap[nums[i]]++;
+        }
+        for (auto i : majorityMap) {
+            if (i.second > floor(nums.size()/2)) {
+                return i.first;
+            }
+//            cout << i.first << " ";
+//            cout << i.second << " ";
+//            cout << endl;
+        }
+        cout << endl;
+        
+        return -1;
     }
 };
 
 int main(int argc, const char * argv[]) {
+    
+    Solution s;
+    vector<int> nums;
+    int majority = 0;
+    nums.push_back(2);
+    nums.push_back(2);
+    nums.push_back(1);
+    nums.push_back(1);
+    nums.push_back(1);
+    nums.push_back(2);
+    nums.push_back(2);
+    majority = s.majorityElement(nums);
+    cout << majority << endl;
     
     
     return 0;
